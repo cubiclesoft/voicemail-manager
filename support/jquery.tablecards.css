@@ -1,0 +1,4 @@
+.tablecard-col, .tablecard-show th, .tablecard-show td { display: none; }
+.tablecard-show th.tablecard-mode-card, .tablecard-show td.tablecard-mode-card { display: table-cell; }
+.tablecard-show.tablecard-show-nohead > thead { display: none; }
+.tablecard-show.tablecard-show-nofoot > tfoot { display: none; }

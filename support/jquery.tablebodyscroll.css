@@ -1,0 +1,27 @@
+.tablebodyscroll-head { margin-bottom: 0 !important; border-bottom: none !important; }
+
+/* Hide the scrollbar on most platforms.  Post-load Javascript adjusts the inner box a bit. */
+.tablebodyscroll-scroller { position: relative; overflow: hidden; }
+.tablebodyscroll-scroller2 { position: absolute; overflow: scroll; top: 0; bottom: -17px; left: 0; right: -17px; }
+[dir="rtl"] .tablebodyscroll-scroller2 { left: -17px; right: 0; }
+.tablebodyscroll-scroller2::-webkit-scrollbar { display: none; }
+
+.tablebodyscroll-scroller3 { position: relative; }
+
+.tablebodyscroll-shadow-top .tablebodyscroll-scroller-shadow-top, .tablebodyscroll-shadow-both .tablebodyscroll-scroller-shadow-top { position: absolute; left: 0; right: 0; top: 0; height: 10px; background: rgba(0, 0, 0, 0.4); background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)); }
+.tablebodyscroll-shadow-bottom .tablebodyscroll-scroller-shadow-bottom, .tablebodyscroll-shadow-both .tablebodyscroll-scroller-shadow-bottom { position: absolute; left: 0; right: 0; bottom: 0; height: 10px; background: rgba(0, 0, 0, 0); background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); }
+
+.tablebodyscroll-scroller-indicator { position: absolute; right: 0; height: 25px; width: 3px; background: #CCCCCC; transition: top .25s; }
+[dir="rtl"] .tablebodyscroll-scroller-indicator { right: auto; left: 0; }
+.tablebodyscroll-scroller-indicator-hide { opacity: 0; transition: opacity .5s linear; }
+.tablebodyscroll-scroller-indicator-show { opacity: 1; }
+
+.tablebodyscroll-has-head .tablebodyscroll-scroller3 > table { margin-top: 0 !important; border-top: none !important; }
+.tablebodyscroll-scroller3 > table > thead > tr { height: 0; }
+.tablebodyscroll-has-foot .tablebodyscroll-scroller3 > table { margin-bottom: 0 !important; border-bottom: none !important; }
+.tablebodyscroll-scroller3 > table > tfoot > tr { height: 0; }
+
+.tablebodyscroll-scroller3 th.tablebodyscroll-body-hide-cell, .tablebodyscroll-scroller3 td.tablebodyscroll-body-hide-cell { padding-top: 0 !important; padding-bottom: 0 !important; }
+.tablebodyscroll-scroller3 div.tablebodyscroll-body-hide-cell { height: 0; overflow: hidden; }
+
+.tablebodyscroll-foot { margin-top: 0 !important; border-top: none !important; }
