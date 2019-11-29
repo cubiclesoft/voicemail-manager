@@ -3,13 +3,15 @@ Voicemail Manager
 
 Voicemail Manager works with Twilio-compatible systems to automatically route incoming calls to a voicemail queue.  It has flexible management options available through phone and web interfaces.
 
+[![Voicemail Manager Overview and Live Demo video](https://user-images.githubusercontent.com/1432111/69885071-99082c00-1298-11ea-93e2-6e22433e5c98.png)](https://www.youtube.com/watch?v=Mo4lb8RusE4 "Voicemail Manager Overview and Live Demo")
+
 [![Donate](https://cubiclesoft.com/res/donate-shield.png)](https://cubiclesoft.com/donate/)
 
 Features
 --------
 
 * Customizable messaging options.
-* Voicemail queue and per-user assignments queues for streamlined handling of incoming voicemail.
+* Voicemail queue and per-user assignment queues for streamlined handling of incoming voicemail.
 * Phone and web interfaces for admins.
 * Sends SMS and/or email notifications to configured phones whenever a new voicemail arrives.
 * Keeps personal phone numbers private.
