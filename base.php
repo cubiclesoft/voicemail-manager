@@ -49,7 +49,7 @@
 		"company_name" => "",
 		"max_calls_per_day" => 5, "max_recordings_per_day" => 3, "max_call_log_days" => 7, "max_recording_days" => 7,
 		"start_call" => "<Say>Hello.  You've reached XYZ.  Please wait a moment.</Say>\n<Play digits=\"w2\" />\n<Pause length=\"1\" />",
-		"voicemail_route" => "<Play>support/ringing.mp3</Play>\n<Pause length=\"1\" />\n<Say>Unfortunately, there's no one available to take your call.  We recognize that your time is valuable.  Please leave your name and a brief message and we'll call you back shortly.</Say>",
+		"voicemail_route" => "<Play>support/ringing.mp3</Play>\n<Pause length=\"1\" />\n<Say>Unfortunately, there's no one available to take your call.  We recognize that your time is valuable.  Please leave your name and a brief message and we'll call you back shortly.  Also, add this phone number to your contacts list so we can return your call.</Say>",
 		"too_many_calls" => "<Say>Too many calls have been made from your phone to this number today.  Try again tomorrow.</Say>",
 		"callback_forward" => 0, "completed_forward" => 0
 	);

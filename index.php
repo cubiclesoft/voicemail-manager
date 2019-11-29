@@ -358,7 +358,7 @@
 								{
 									$cinfo2 = LoadCallInfo(json_decode($row2->info, true));
 
-									$twilio->OutputXMLTag("Play", array(), dirname(Request::GetFullURLBase()) . "/files/record_" . $row2->id . "_" . $cinfo2["rec"] . ".mp3");
+									$twilio->OutputXMLTag("Play", array(), str_replace("/index.php", "/", Request::GetFullURLBase()) . "files/record_" . $row2->id . "_" . $cinfo2["rec"] . ".mp3");
 
 									$num++;
 								}
