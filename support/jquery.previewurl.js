@@ -19,7 +19,7 @@
 		if (previewtype && previewtype === 'image/gif' || previewtype === 'image/jpeg' || previewtype === 'image/png')  previewclone = $('<img>').attr('src', url);
 		else if (previewtype && previewtype.lastIndexOf('audio/', 0) > -1 && audioelem.canPlayType && audioelem.canPlayType(previewtype))  previewclone = $('<audio>').attr('src', url).prop('controls', true);
 		else if (previewtype && previewtype.lastIndexOf('video/', 0) > -1 && videoelem.canPlayType && videoelem.canPlayType(previewtype))  previewclone = $('<video>').attr('src', url).prop('controls', true);
-		else if (previewtype && previewtype === 'iframe')  previewclone = $('<iframe>').attr('src', url).attr('frameborder', '0').attr('sandbox', 'allow-scripts allow-same-origin allow-forms').attr('allow', 'autoplay; encrypted-media');
+		else if (previewtype && previewtype === 'iframe')  previewclone = $('<iframe>').attr('src', url).attr('frameborder', '0').attr('sandbox', 'allow-scripts allow-same-origin allow-forms allow-popups').attr('allow', 'autoplay; encrypted-media');
 		else  return false;
 
 		var previewbackground = $('<div>').addClass('previewurl_dialog_background');
