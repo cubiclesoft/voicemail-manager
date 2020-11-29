@@ -5,7 +5,7 @@ Voicemail Manager works with Twilio-compatible systems to automatically route in
 
 [![Voicemail Manager Overview and Live Demo video](https://user-images.githubusercontent.com/1432111/69885071-99082c00-1298-11ea-93e2-6e22433e5c98.png)](https://www.youtube.com/watch?v=Mo4lb8RusE4 "Voicemail Manager Overview and Live Demo")
 
-[![Donate](https://cubiclesoft.com/res/donate-shield.png)](https://cubiclesoft.com/donate/)
+[![Donate](https://cubiclesoft.com/res/donate-shield.png)](https://cubiclesoft.com/donate/) [![Discord](https://img.shields.io/discord/777282089980526602?label=chat&logo=discord)](https://cubiclesoft.com/product-support/github/)
 
 Features
 --------
